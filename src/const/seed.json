@@ -1,0 +1,3192 @@
+[
+  {
+    "patient_history": [
+      {
+        "id": "441f5fe4-5c0d-44f6-8223-f5a973889be2",
+        "created_at": "2023-09-20T03:15:01.089Z",
+        "updated_at": "2023-09-19T13:02:40.880Z"
+      },
+      {
+        "id": "e871cabc-0cec-4476-9372-5f7d009e9746",
+        "created_at": "2023-09-19T16:31:06.053Z",
+        "updated_at": "2023-09-19T14:53:08.083Z"
+      },
+      {
+        "id": "e8e8e00e-8dd7-4aa5-af87-ff337f1e4010",
+        "created_at": "2023-09-20T03:10:34.589Z",
+        "updated_at": "2023-09-19T18:58:10.202Z"
+      },
+      {
+        "id": "cae2aa8e-ecba-4b08-bf85-4abf344c2b5d",
+        "created_at": "2023-09-20T10:56:35.881Z",
+        "updated_at": "2023-09-20T08:05:02.843Z"
+      },
+      {
+        "id": "576aef61-df4c-4e2f-84af-a98282fdf25b",
+        "created_at": "2023-09-19T14:29:12.612Z",
+        "updated_at": "2023-09-20T11:02:47.463Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "36cfcf24-29ac-4579-b2bb-207a67903377",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-19T18:32:00.950Z",
+        "updated_at": "2023-09-19T18:28:14.404Z"
+      },
+      {
+        "id": "10140af2-a1d9-4f17-b5b6-8135563ea9b9",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-19T21:42:56.713Z",
+        "updated_at": "2023-09-19T15:04:32.350Z"
+      },
+      {
+        "id": "c197affe-fc98-4ca2-a805-8866672e0089",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-19T23:30:52.320Z",
+        "updated_at": "2023-09-20T07:33:22.723Z"
+      },
+      {
+        "id": "ab574e6d-25da-4f44-93d9-7ac198aab1d5",
+        "name": "PQR Insurance",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(888) 999-0000",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T07:06:49.120Z",
+        "updated_at": "2023-09-20T10:46:42.310Z"
+      },
+      {
+        "id": "5eb825f4-c654-40f5-aff1-be409e8887ad",
+        "name": "DEF Insurance",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@definsurance.com",
+        "created_at": "2023-09-19T20:30:46.690Z",
+        "updated_at": "2023-09-20T09:54:03.363Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "9b698cf1-de0c-4fbe-bd4f-d53d9309eaad",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-20T07:03:54.315Z",
+        "updated_at": "2023-09-20T08:23:47.659Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67725dcd-0793-4970-a926-a00d8b7f909e",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-20T07:00:10.705Z",
+        "updated_at": "2023-09-19T21:37:46.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03ad2787-da7b-4528-898b-01ba83475db6",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123healthcare.com",
+        "created_at": "2023-09-20T02:00:59.860Z",
+        "updated_at": "2023-09-20T04:49:37.605Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d651918-22bc-47d8-8052-515e31815f02",
+        "name": "PQR Healthcare",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(888) 999-0000",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-20T07:51:16.334Z",
+        "updated_at": "2023-09-20T01:04:51.416Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2b11cce-8a8d-4d05-acac-8018f7e18900",
+        "name": "DEF Healthcare",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@defhealthcare.com",
+        "created_at": "2023-09-20T02:00:04.473Z",
+        "updated_at": "2023-09-20T03:42:23.303Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "87ae83a9-759f-4d86-add0-e3b1504c8a4a",
+        "job_title": "Doctor",
+        "start_date": "2023-09-19T20:05:25.026Z",
+        "end_date": "2023-09-19T14:02:48.621Z",
+        "shift": "Morning",
+        "created_at": "2023-09-19T13:04:59.587Z",
+        "updated_at": "2023-09-19T19:01:51.974Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "201294ce-959a-40b3-828a-b505ead8ec1b",
+        "job_title": "Nurse",
+        "start_date": "2023-09-20T09:03:08.574Z",
+        "end_date": "2023-09-19T13:01:32.854Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-20T06:13:57.168Z",
+        "updated_at": "2023-09-19T19:37:50.180Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c7e680c-ebb3-4eaf-817c-39fb886d8fbb",
+        "job_title": "Medical Assistant",
+        "start_date": "2023-09-20T03:09:18.389Z",
+        "end_date": "2023-09-20T01:42:07.299Z",
+        "shift": "Evening",
+        "created_at": "2023-09-20T00:57:56.968Z",
+        "updated_at": "2023-09-19T17:11:10.386Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7ada8a9-1da3-40b1-82c9-20596211fe9b",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-19T17:37:50.359Z",
+        "end_date": "2023-09-19T18:25:23.858Z",
+        "shift": "Night",
+        "created_at": "2023-09-20T05:01:04.036Z",
+        "updated_at": "2023-09-20T03:30:35.030Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41967a30-10e6-43a1-bef4-47b9a88458a5",
+        "job_title": "Lab Technician",
+        "start_date": "2023-09-19T12:28:26.750Z",
+        "end_date": "2023-09-20T04:46:36.090Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-20T07:09:06.010Z",
+        "updated_at": "2023-09-19T17:28:49.271Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "025cbe5a-0e8f-4024-9ac1-485c5cf931cb",
+        "date_time": "2023-09-19T14:13:52.384Z",
+        "diagnosis": "Common cold",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-20T06:35:41.114Z",
+        "updated_at": "2023-09-19T20:34:16.684Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "2dfb643f-edbe-4a67-ac5a-c6dd492573d7",
+        "date_time": "2023-09-20T08:25:59.871Z",
+        "diagnosis": "Sprained ankle",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-20T00:24:57.695Z",
+        "updated_at": "2023-09-20T07:01:43.877Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e6c7382f-f067-4cd3-ab76-9c1d3664380f",
+        "date_time": "2023-09-20T02:05:57.656Z",
+        "diagnosis": "High blood pressure",
+        "prescription": "Blood pressure medication",
+        "created_at": "2023-09-19T15:01:22.986Z",
+        "updated_at": "2023-09-20T09:07:12.143Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "803a62de-1aea-4d3e-80cd-7ca6d881998f",
+        "date_time": "2023-09-20T07:53:57.199Z",
+        "diagnosis": "Diabetes",
+        "prescription": "Insulin",
+        "created_at": "2023-09-20T05:50:57.676Z",
+        "updated_at": "2023-09-20T00:44:29.208Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d87218c4-c19d-46ff-9917-fe0a23a8e1dd",
+        "date_time": "2023-09-20T11:20:53.833Z",
+        "diagnosis": "Migraine",
+        "prescription": "Migraine medication",
+        "created_at": "2023-09-20T08:00:32.272Z",
+        "updated_at": "2023-09-19T15:26:18.005Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "20128333-e8ac-40af-a2ea-34aa5e57e1fa",
+        "email": "Katherine82@hotmail.com",
+        "firstName": "Randall",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/654.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c0f9f853-d741-44cb-8244-6e051d7c1f69",
+        "email": "Deontae_Bergstrom-Stokes59@hotmail.com",
+        "firstName": "Myrtis",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1086.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50806c6d-6bd5-41cb-b235-0699c31f24e8",
+        "email": "Madeline92@hotmail.com",
+        "firstName": "Hubert",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1804529",
+        "tenantId": null
+      },
+      {
+        "reference": "ebbdc8ca-45d3-4639-8159-692100b87d1d",
+        "email": "Zack4@hotmail.com",
+        "firstName": "Lexus",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92836135",
+        "tenantId": null
+      },
+      {
+        "reference": "334ec0b3-8c0a-49ea-9db7-2d33327e5a29",
+        "email": "Annie55@gmail.com",
+        "firstName": "Carmela",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/690369",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "29a52781-2675-4ebb-9403-4afe95c073da",
+        "created_at": "2023-09-20T03:18:56.654Z",
+        "updated_at": "2023-09-19T14:05:38.187Z"
+      },
+      {
+        "id": "754aec07-de87-4b38-8634-bf8c39fa8634",
+        "created_at": "2023-09-19T20:19:23.206Z",
+        "updated_at": "2023-09-20T01:51:49.423Z"
+      },
+      {
+        "id": "c864fe92-e3ae-4e9f-97aa-460fc114ae49",
+        "created_at": "2023-09-20T10:16:51.216Z",
+        "updated_at": "2023-09-19T16:14:26.323Z"
+      },
+      {
+        "id": "49297fde-c3d0-48ca-b57f-11e0c7213606",
+        "created_at": "2023-09-19T21:35:49.988Z",
+        "updated_at": "2023-09-19T15:21:21.412Z"
+      },
+      {
+        "id": "847c1720-3dfa-477e-99a4-118c9c6c64a6",
+        "created_at": "2023-09-20T00:59:09.831Z",
+        "updated_at": "2023-09-20T02:07:55.658Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "ae3c8562-9ade-493a-80c4-67620b2c13c2",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-20T11:11:51.192Z",
+        "updated_at": "2023-09-19T13:29:12.631Z"
+      },
+      {
+        "id": "7eb83f88-e2db-41f3-a881-a70bf8f67652",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-20T01:30:41.008Z",
+        "updated_at": "2023-09-20T00:14:38.313Z"
+      },
+      {
+        "id": "e13d5a14-7fbf-4fdf-9ba9-72a8a56b1603",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-19T20:23:06.880Z",
+        "updated_at": "2023-09-19T20:10:08.799Z"
+      },
+      {
+        "id": "ab9c8f7d-d04f-4634-a67f-d0dadc8b03e0",
+        "name": "PQR Insurance",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T01:48:27.621Z",
+        "updated_at": "2023-09-20T02:36:52.938Z"
+      },
+      {
+        "id": "82e7fcd7-4420-4487-a36d-b816423dfdfb",
+        "name": "DEF Insurance",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@definsurance.com",
+        "created_at": "2023-09-20T01:08:31.951Z",
+        "updated_at": "2023-09-20T05:36:45.016Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "d2e50d16-caa8-423f-a140-f111a586df90",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-20T08:29:35.880Z",
+        "updated_at": "2023-09-20T07:20:03.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "799afe5b-6dfd-4e3b-93ad-49dde3054527",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-20T11:08:30.591Z",
+        "updated_at": "2023-09-20T09:38:41.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5ea4d8d-4903-416a-a7da-a5ec0a360fb8",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123healthcare.com",
+        "created_at": "2023-09-19T12:40:41.363Z",
+        "updated_at": "2023-09-20T10:08:08.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8c823e6-1409-479d-b52f-1de193c69d0e",
+        "name": "PQR Healthcare",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-19T17:57:50.571Z",
+        "updated_at": "2023-09-20T05:37:32.393Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc8284ef-1592-437f-a200-a329e6ef93b8",
+        "name": "DEF Healthcare",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@defhealthcare.com",
+        "created_at": "2023-09-19T12:43:18.259Z",
+        "updated_at": "2023-09-19T23:37:19.463Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "6e2127ca-a794-42e6-9205-382e2e2fd966",
+        "job_title": "Doctor",
+        "start_date": "2023-09-20T07:07:44.611Z",
+        "end_date": "2023-09-20T00:05:00.270Z",
+        "shift": "Morning",
+        "created_at": "2023-09-19T18:56:06.762Z",
+        "updated_at": "2023-09-20T03:58:03.670Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e30c8125-642c-4796-8a9d-92798638f200",
+        "job_title": "Nurse",
+        "start_date": "2023-09-20T01:21:10.963Z",
+        "end_date": "2023-09-20T08:46:00.108Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-19T18:29:20.801Z",
+        "updated_at": "2023-09-20T04:21:25.054Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f62f117-0b41-4c1b-8504-5702b39b6d57",
+        "job_title": "Surgeon",
+        "start_date": "2023-09-19T13:22:09.442Z",
+        "end_date": "2023-09-20T10:21:47.790Z",
+        "shift": "Evening",
+        "created_at": "2023-09-19T19:32:08.938Z",
+        "updated_at": "2023-09-19T20:14:19.968Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b8ec965-ad04-4be3-9fd6-7e2680fc2ada",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-20T00:13:54.372Z",
+        "end_date": "2023-09-20T00:12:30.497Z",
+        "shift": "Night",
+        "created_at": "2023-09-20T02:12:24.327Z",
+        "updated_at": "2023-09-20T03:45:03.358Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "248816e4-9b5f-44b8-864d-00814519d041",
+        "job_title": "Physical Therapist",
+        "start_date": "2023-09-19T14:22:47.946Z",
+        "end_date": "2023-09-19T16:05:16.219Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-19T14:30:00.055Z",
+        "updated_at": "2023-09-19T20:54:37.738Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "2631f57c-ee2b-4e6e-847b-c0acfdb91efe",
+        "date_time": "2023-09-19T21:20:23.323Z",
+        "diagnosis": "Headache",
+        "prescription": "Acetaminophen",
+        "created_at": "2023-09-20T11:42:50.730Z",
+        "updated_at": "2023-09-19T18:24:16.101Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "46fa07d0-dbc3-4319-b90f-7df3ae82293a",
+        "date_time": "2023-09-20T01:41:16.556Z",
+        "diagnosis": "Fever",
+        "prescription": "Amoxicillin",
+        "created_at": "2023-09-20T03:17:25.301Z",
+        "updated_at": "2023-09-19T23:07:43.898Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "fb15f34f-7185-44e2-be4f-7efac7d09745",
+        "date_time": "2023-09-20T09:22:21.506Z",
+        "diagnosis": "Cough",
+        "prescription": "Ibuprofen",
+        "created_at": "2023-09-19T16:45:59.417Z",
+        "updated_at": "2023-09-19T12:40:01.141Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3a178427-6189-4005-8588-e8bcc45bf5a6",
+        "date_time": "2023-09-20T04:45:05.232Z",
+        "diagnosis": "Back pain",
+        "prescription": "Prednisone",
+        "created_at": "2023-09-19T17:04:13.565Z",
+        "updated_at": "2023-09-19T12:50:13.495Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c2dda6d0-7ba6-4b7c-8e39-dda51f204d6c",
+        "date_time": "2023-09-20T06:35:55.319Z",
+        "diagnosis": "Stomach ache",
+        "prescription": "Omeprazole",
+        "created_at": "2023-09-20T10:26:39.466Z",
+        "updated_at": "2023-09-19T13:04:17.245Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1e4f39ee-6c88-496c-90bf-800f97fe7282",
+        "email": "Jonatan_Nitzsche51@gmail.com",
+        "firstName": "Merl",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71268153",
+        "tenantId": null
+      },
+      {
+        "reference": "3f8b0de4-3d60-45c0-84e6-0268ff432148",
+        "email": "Jocelyn_Borer68@gmail.com",
+        "firstName": "Will",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70401969",
+        "tenantId": null
+      },
+      {
+        "reference": "709d6436-16a2-40da-a06d-d32684e0dc84",
+        "email": "Ewald90@gmail.com",
+        "firstName": "Juliana",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21943279",
+        "tenantId": null
+      },
+      {
+        "reference": "696affe9-767e-4b7c-a176-a7fef084f5e1",
+        "email": "Davion.Bosco65@hotmail.com",
+        "firstName": "Ismael",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0837b361-b7ea-4b16-856c-9368f0d0b186",
+        "email": "Chet.Baumbach16@yahoo.com",
+        "firstName": "Litzy",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35914047",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "67c54660-e078-4573-af36-c3820b3aa4b1",
+        "created_at": "2023-09-19T21:52:19.429Z",
+        "updated_at": "2023-09-20T11:22:04.859Z"
+      },
+      {
+        "id": "42b3e4c0-f3c2-466c-b399-55bf65b42f4a",
+        "created_at": "2023-09-19T14:03:30.964Z",
+        "updated_at": "2023-09-19T18:00:41.519Z"
+      },
+      {
+        "id": "2c661b22-58d9-4a47-85d4-e3ae93d76174",
+        "created_at": "2023-09-19T23:43:12.309Z",
+        "updated_at": "2023-09-20T05:12:12.551Z"
+      },
+      {
+        "id": "fede93cf-ae23-47f0-b93a-655f14b30cc5",
+        "created_at": "2023-09-19T16:59:55.989Z",
+        "updated_at": "2023-09-19T21:26:51.757Z"
+      },
+      {
+        "id": "1d743310-eea7-4b96-82a1-e045f3e9fc9f",
+        "created_at": "2023-09-19T20:41:02.021Z",
+        "updated_at": "2023-09-19T20:40:52.766Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "cbd8c8be-5b3e-4ff4-8a67-4d49b3253744",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-19T14:26:28.959Z",
+        "updated_at": "2023-09-20T01:39:36.615Z"
+      },
+      {
+        "id": "939c494d-89af-4670-a6d1-3f2e39178a73",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "contact@xyzinsurance.com",
+        "created_at": "2023-09-19T15:42:51.566Z",
+        "updated_at": "2023-09-19T19:10:45.331Z"
+      },
+      {
+        "id": "48e0e64f-8067-4bfa-bb4d-9e0c941a1e81",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "support@123insurance.com",
+        "created_at": "2023-09-19T17:06:44.536Z",
+        "updated_at": "2023-09-19T22:47:10.511Z"
+      },
+      {
+        "id": "3d0bc086-7f73-4494-80f3-778b9d2b763f",
+        "name": "PQR Insurance",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T11:16:03.963Z",
+        "updated_at": "2023-09-19T12:55:32.259Z"
+      },
+      {
+        "id": "5c63fd99-e1f2-40f4-965e-29ab0846a4e7",
+        "name": "DEF Insurance",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "(444) 555-6666",
+        "email_address": "contact@definsurance.com",
+        "created_at": "2023-09-19T14:13:13.357Z",
+        "updated_at": "2023-09-19T19:29:33.202Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "3ad070aa-00b5-4a1f-bc98-c2092f2a067a",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-20T10:00:25.470Z",
+        "updated_at": "2023-09-19T17:23:36.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f85750a8-1e28-46f8-8e25-66e51193f82c",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "contact@xyzhealthcare.com",
+        "created_at": "2023-09-19T15:09:53.289Z",
+        "updated_at": "2023-09-19T20:09:27.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a9f18ab-83b0-4ebe-9924-5c385337c2a3",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "support@123healthcare.com",
+        "created_at": "2023-09-20T10:27:12.503Z",
+        "updated_at": "2023-09-19T23:20:37.119Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b89279a6-fd8f-4578-8b39-23b595f32b2b",
+        "name": "PQR Healthcare",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-20T11:42:12.605Z",
+        "updated_at": "2023-09-20T06:28:00.920Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e640604f-7ed7-4b51-a453-d3e34adcbd0e",
+        "name": "DEF Healthcare",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "(444) 555-6666",
+        "email_address": "contact@defhealthcare.com",
+        "created_at": "2023-09-19T13:41:59.927Z",
+        "updated_at": "2023-09-19T22:38:25.917Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "d5604b98-ff42-4021-9529-2858d26aeda6",
+        "job_title": "Doctor",
+        "start_date": "2023-09-19T12:34:30.201Z",
+        "end_date": "2023-09-19T19:25:04.886Z",
+        "shift": "Morning",
+        "created_at": "2023-09-19T12:28:14.886Z",
+        "updated_at": "2023-09-19T22:51:32.233Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fa030fd-a8f8-4107-afaa-75ffc32e0f24",
+        "job_title": "Nurse",
+        "start_date": "2023-09-19T20:00:35.925Z",
+        "end_date": "2023-09-20T06:40:21.819Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-19T13:10:32.959Z",
+        "updated_at": "2023-09-20T07:06:11.458Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b1af1b7-05ba-4c35-80aa-6f0c3cb21516",
+        "job_title": "Surgeon",
+        "start_date": "2023-09-19T16:06:52.058Z",
+        "end_date": "2023-09-19T21:20:19.862Z",
+        "shift": "Evening",
+        "created_at": "2023-09-19T22:48:45.153Z",
+        "updated_at": "2023-09-20T10:58:48.627Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3840073b-08c2-40e0-9ed3-f2a357590cc6",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-20T01:43:09.863Z",
+        "end_date": "2023-09-19T19:20:28.521Z",
+        "shift": "Night",
+        "created_at": "2023-09-19T22:56:22.950Z",
+        "updated_at": "2023-09-19T22:17:35.169Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdbb50fa-03de-4079-9597-c40377715a45",
+        "job_title": "Physician Assistant",
+        "start_date": "2023-09-20T06:57:56.606Z",
+        "end_date": "2023-09-20T05:55:42.368Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-19T23:49:09.684Z",
+        "updated_at": "2023-09-20T07:27:01.523Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b9c30795-43a3-4728-9cc3-eb1530137f4f",
+        "date_time": "2023-09-19T23:04:37.954Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-19T23:51:09.720Z",
+        "updated_at": "2023-09-20T06:58:21.293Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "358209f0-935b-479b-ab3d-013894174821",
+        "date_time": "2023-09-19T12:59:28.013Z",
+        "diagnosis": "Headache",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-20T00:54:49.948Z",
+        "updated_at": "2023-09-20T10:57:16.470Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d631fa65-bd61-4e88-a42e-a885d6557e85",
+        "date_time": "2023-09-20T06:37:44.375Z",
+        "diagnosis": "Stomachache",
+        "prescription": "Antacids",
+        "created_at": "2023-09-20T00:27:22.875Z",
+        "updated_at": "2023-09-19T22:21:43.396Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b68feb67-69c8-472c-bb92-edd1f71f6e1e",
+        "date_time": "2023-09-20T08:19:11.148Z",
+        "diagnosis": "Sprained ankle",
+        "prescription": "Anti-inflammatory drugs",
+        "created_at": "2023-09-19T16:52:34.050Z",
+        "updated_at": "2023-09-19T15:31:47.050Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b9c5c6ce-077c-41e0-8048-1961b310c55a",
+        "date_time": "2023-09-19T15:34:39.453Z",
+        "diagnosis": "Common cold",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-19T13:04:23.586Z",
+        "updated_at": "2023-09-20T00:02:54.650Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e2916a25-144d-4dd8-a0f4-2d4b53c0a814",
+        "email": "Domenic84@gmail.com",
+        "firstName": "Mortimer",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9741211-d1b1-4be5-915d-ad7e433540f3",
+        "email": "Freeman31@gmail.com",
+        "firstName": "Burley",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65130700",
+        "tenantId": null
+      },
+      {
+        "reference": "dd503e59-189f-49ae-b08a-a23ba2eac221",
+        "email": "Lydia52@gmail.com",
+        "firstName": "Eileen",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83616492",
+        "tenantId": null
+      },
+      {
+        "reference": "31dd4d0e-2a0a-4423-af96-83d02c722ffb",
+        "email": "Marisa.Jerde85@gmail.com",
+        "firstName": "Kaelyn",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/118.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44df8928-6313-487a-8c2d-c5e9f78a179b",
+        "email": "Jonathan_Auer92@hotmail.com",
+        "firstName": "Golden",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28121500",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "f43aff5c-928e-4e6b-beaa-006964867be9",
+        "created_at": "2023-09-19T12:42:57.130Z",
+        "updated_at": "2023-09-19T16:10:10.363Z"
+      },
+      {
+        "id": "e0cd6336-1f14-4d41-b8c0-d89526f0f22f",
+        "created_at": "2023-09-20T02:24:44.739Z",
+        "updated_at": "2023-09-19T20:37:09.767Z"
+      },
+      {
+        "id": "bc596eb4-7979-4f6f-91a6-c2a96bde177f",
+        "created_at": "2023-09-20T07:19:30.025Z",
+        "updated_at": "2023-09-20T03:30:33.398Z"
+      },
+      {
+        "id": "e2b0ee69-1c66-4121-808e-23a75950b078",
+        "created_at": "2023-09-19T18:30:06.173Z",
+        "updated_at": "2023-09-19T14:39:54.119Z"
+      },
+      {
+        "id": "edec476c-5175-4006-9923-2d265c21f48d",
+        "created_at": "2023-09-19T22:11:22.632Z",
+        "updated_at": "2023-09-20T10:37:10.002Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "11b208f2-ac64-4a4c-bb44-9422a92669fb",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "123-456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-20T00:58:18.509Z",
+        "updated_at": "2023-09-20T02:52:44.381Z"
+      },
+      {
+        "id": "da5c00b2-0175-4b3d-87f5-718c821d9c6e",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "987-654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-20T08:23:49.659Z",
+        "updated_at": "2023-09-20T08:39:49.711Z"
+      },
+      {
+        "id": "68eb351e-5a23-4681-97e6-d2615a1a4b8c",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "555-555-5555",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-20T09:01:46.010Z",
+        "updated_at": "2023-09-20T00:23:08.817Z"
+      },
+      {
+        "id": "16b572d4-c0ea-40d8-a9d6-440e1cb42769",
+        "name": "PQR Insurance",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "111-222-3333",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T04:30:36.501Z",
+        "updated_at": "2023-09-19T21:18:24.440Z"
+      },
+      {
+        "id": "50ad1a78-5679-493f-ad38-89993058968d",
+        "name": "789 Insurance",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "444-555-6666",
+        "email_address": "info@789insurance.com",
+        "created_at": "2023-09-20T06:33:49.890Z",
+        "updated_at": "2023-09-20T01:17:41.946Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "9998f5de-3e0d-46c3-80d0-e8d50bf62e72",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "123-456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-20T05:11:00.827Z",
+        "updated_at": "2023-09-19T17:18:21.770Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf38599f-0786-4c14-81ab-af0b287e1a0c",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "987-654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-20T03:01:14.442Z",
+        "updated_at": "2023-09-19T15:02:00.546Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2313e39e-9603-4f3a-88fc-c8b20be067d0",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "555-555-5555",
+        "email_address": "info@123healthcare.com",
+        "created_at": "2023-09-19T17:21:50.283Z",
+        "updated_at": "2023-09-20T05:07:01.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "356a6896-3281-4bef-9fab-44e8a7f7f410",
+        "name": "PQR Healthcare",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "111-222-3333",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-19T15:02:09.622Z",
+        "updated_at": "2023-09-19T20:02:57.246Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "760e40f4-19a9-403a-bfc1-a933c79f2bb0",
+        "name": "789 Healthcare",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "444-555-6666",
+        "email_address": "info@789healthcare.com",
+        "created_at": "2023-09-20T00:43:32.456Z",
+        "updated_at": "2023-09-20T10:38:06.094Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "96f989e7-5436-4aa3-9b40-0863b30b8048",
+        "job_title": "Doctor",
+        "start_date": "2023-09-20T06:48:00.164Z",
+        "end_date": "2023-09-20T02:43:29.620Z",
+        "shift": "Morning",
+        "created_at": "2023-09-19T15:21:41.004Z",
+        "updated_at": "2023-09-19T14:05:01.711Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b26b0c6-8424-45f6-8cc3-87a1e076f5d1",
+        "job_title": "Nurse",
+        "start_date": "2023-09-19T23:12:41.783Z",
+        "end_date": "2023-09-20T09:29:32.796Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-20T03:53:54.881Z",
+        "updated_at": "2023-09-20T04:14:36.718Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96ef7a68-b869-4261-9433-24fc752c010a",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-20T00:01:57.886Z",
+        "end_date": "2023-09-19T18:52:35.932Z",
+        "shift": "Evening",
+        "created_at": "2023-09-20T06:04:36.390Z",
+        "updated_at": "2023-09-20T03:44:16.585Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a11245a9-04d1-402d-a306-4cc78f6f6684",
+        "job_title": "Medical Assistant",
+        "start_date": "2023-09-19T16:41:05.747Z",
+        "end_date": "2023-09-20T02:43:09.211Z",
+        "shift": "Night",
+        "created_at": "2023-09-20T09:15:40.258Z",
+        "updated_at": "2023-09-20T02:22:10.968Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7736ad09-d52d-4517-9ad6-1fa13054fc2c",
+        "job_title": "Lab Technician",
+        "start_date": "2023-09-19T18:32:53.821Z",
+        "end_date": "2023-09-19T20:51:20.322Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-20T00:45:47.935Z",
+        "updated_at": "2023-09-19T14:37:05.937Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "82dc1020-d75d-41f7-92aa-b800f7b642f5",
+        "date_time": "2023-09-19T19:33:17.918Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-20T03:00:13.014Z",
+        "updated_at": "2023-09-19T22:22:51.417Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "043ad36d-3561-415d-9930-07c8a2332d10",
+        "date_time": "2023-09-19T16:54:42.206Z",
+        "diagnosis": "Headache",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-19T16:25:38.742Z",
+        "updated_at": "2023-09-20T05:17:47.404Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "a197b05b-0d7b-40c7-9c5f-f44dfda157fa",
+        "date_time": "2023-09-20T02:13:47.706Z",
+        "diagnosis": "Back pain",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-19T19:11:16.561Z",
+        "updated_at": "2023-09-19T20:33:56.051Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "88f5c2e3-a9c9-40df-801a-edccdb3cf3ad",
+        "date_time": "2023-09-19T19:57:16.282Z",
+        "diagnosis": "Cough",
+        "prescription": "Antihistamines",
+        "created_at": "2023-09-19T17:53:12.307Z",
+        "updated_at": "2023-09-19T16:10:21.794Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e6e4878b-01a7-493d-9705-c80eb4cc384f",
+        "date_time": "2023-09-19T12:03:54.578Z",
+        "diagnosis": "Stomach ache",
+        "prescription": "Stomach acid reducers",
+        "created_at": "2023-09-20T09:27:22.991Z",
+        "updated_at": "2023-09-19T18:43:42.881Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a9eb4755-b3e3-43b1-9a3a-22c226b7f6dc",
+        "email": "Rhea_Kreiger84@hotmail.com",
+        "firstName": "Salvatore",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/351.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5612d4e2-0104-437d-8d3d-56d3d71b721e",
+        "email": "Callie42@hotmail.com",
+        "firstName": "Mona",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85c9c5ce-7815-49aa-b296-e6b24dd1bad0",
+        "email": "Lavina.Hansen90@yahoo.com",
+        "firstName": "Odessa",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/470.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a05970d4-c3c7-4f6c-bd1e-b08ed11efc7c",
+        "email": "Jerod_Farrell@yahoo.com",
+        "firstName": "Laurianne",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25719137",
+        "tenantId": null
+      },
+      {
+        "reference": "9da54f0f-3e65-42af-8ffc-76f5ab5020ca",
+        "email": "Mireya2@hotmail.com",
+        "firstName": "Vella",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/638.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "65823104-de95-4b97-ba3f-26115337e4fe",
+        "created_at": "2023-09-20T01:23:25.601Z",
+        "updated_at": "2023-09-20T07:24:08.236Z"
+      },
+      {
+        "id": "6004430e-1964-4447-a9df-e5a764820a36",
+        "created_at": "2023-09-20T00:19:00.005Z",
+        "updated_at": "2023-09-20T02:40:30.019Z"
+      },
+      {
+        "id": "8d1348df-14c5-4cd0-baef-4783ae632d7b",
+        "created_at": "2023-09-20T09:09:22.361Z",
+        "updated_at": "2023-09-20T07:35:24.652Z"
+      },
+      {
+        "id": "c9744d29-09d8-483a-94d9-01f1d8bbadcf",
+        "created_at": "2023-09-20T01:05:48.097Z",
+        "updated_at": "2023-09-20T02:16:51.068Z"
+      },
+      {
+        "id": "63e05bff-827e-4763-9931-57e5ec7044ef",
+        "created_at": "2023-09-19T22:34:20.288Z",
+        "updated_at": "2023-09-19T21:36:23.816Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "ea0e906d-a495-42b9-b88f-45b322fe8fcd",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-19T19:48:32.862Z",
+        "updated_at": "2023-09-19T17:14:21.592Z"
+      },
+      {
+        "id": "72a581df-8062-4b3e-a0a6-6ac8bbd754c0",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-19T13:36:35.710Z",
+        "updated_at": "2023-09-19T18:37:02.453Z"
+      },
+      {
+        "id": "582399b2-3f07-4a3b-aad0-73cdf8e427c1",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-20T02:07:25.412Z",
+        "updated_at": "2023-09-20T03:01:30.222Z"
+      },
+      {
+        "id": "0c1f9aac-0a7b-4d26-a8a1-733f0386d26a",
+        "name": "PQR Insurance",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(888) 999-0000",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T07:08:04.044Z",
+        "updated_at": "2023-09-20T05:05:08.654Z"
+      },
+      {
+        "id": "a73849d4-e069-4087-bd57-82edd51e38d1",
+        "name": "DEF Insurance",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@definsurance.com",
+        "created_at": "2023-09-19T21:27:18.494Z",
+        "updated_at": "2023-09-20T09:08:32.298Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "004aae79-f1b3-4d4c-ac20-a50236ea9daa",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-19T19:19:35.534Z",
+        "updated_at": "2023-09-20T00:22:36.846Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "579823e2-6d19-47ea-9deb-ac8d0672b010",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-19T22:00:32.960Z",
+        "updated_at": "2023-09-19T16:08:40.827Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "737dee5e-e3ed-418a-ab2a-044dd8a4bf5b",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123healthcare.com",
+        "created_at": "2023-09-19T16:20:45.156Z",
+        "updated_at": "2023-09-20T04:22:33.437Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbbfe63b-59c3-4e71-9e74-1190a0391ee9",
+        "name": "PQR Healthcare",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(888) 999-0000",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-19T16:41:45.761Z",
+        "updated_at": "2023-09-19T21:17:10.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffd5fc2b-b6fe-49c2-a645-3c2041965219",
+        "name": "DEF Healthcare",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@defhealthcare.com",
+        "created_at": "2023-09-19T14:19:04.518Z",
+        "updated_at": "2023-09-19T14:34:16.651Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "7606cbe6-1c81-4cfb-b8a8-561b85071846",
+        "job_title": "Doctor",
+        "start_date": "2023-09-20T04:53:59.226Z",
+        "end_date": "2023-09-19T20:01:31.514Z",
+        "shift": "Morning",
+        "created_at": "2023-09-20T07:31:54.925Z",
+        "updated_at": "2023-09-19T13:25:32.363Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f421d434-a485-4778-bbf1-7a23c3e0b53a",
+        "job_title": "Nurse",
+        "start_date": "2023-09-20T02:39:15.418Z",
+        "end_date": "2023-09-20T07:55:20.221Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-20T05:36:47.857Z",
+        "updated_at": "2023-09-20T05:05:30.823Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b937a1c-d4e6-4128-850f-15d2a6b73b2e",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-20T03:18:19.731Z",
+        "end_date": "2023-09-19T23:46:43.194Z",
+        "shift": "Evening",
+        "created_at": "2023-09-19T17:32:59.063Z",
+        "updated_at": "2023-09-19T11:57:02.752Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5265243c-b1dd-4fdd-b447-d9a255b21378",
+        "job_title": "Technician",
+        "start_date": "2023-09-20T07:46:34.372Z",
+        "end_date": "2023-09-20T10:45:50.473Z",
+        "shift": "Night",
+        "created_at": "2023-09-20T08:58:14.127Z",
+        "updated_at": "2023-09-19T21:24:44.106Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7275dd2-d0ee-4a41-b5f9-95fa26d737e6",
+        "job_title": "Therapist",
+        "start_date": "2023-09-19T15:03:13.951Z",
+        "end_date": "2023-09-20T06:17:49.309Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-19T13:02:52.113Z",
+        "updated_at": "2023-09-19T20:15:28.739Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "5efb2796-f1a7-4b36-93ac-12c45c799bb3",
+        "date_time": "2023-09-20T03:44:28.040Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-20T02:20:13.387Z",
+        "updated_at": "2023-09-20T09:16:07.965Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "162a7c89-f76a-4d8c-92ce-1a6b5ed69144",
+        "date_time": "2023-09-20T06:43:55.976Z",
+        "diagnosis": "Headache",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-20T09:51:55.347Z",
+        "updated_at": "2023-09-19T13:04:48.768Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "55859663-c878-47d5-b078-346a43d18b7d",
+        "date_time": "2023-09-20T02:16:12.733Z",
+        "diagnosis": "Cough",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-20T06:13:26.685Z",
+        "updated_at": "2023-09-20T08:45:49.589Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "326960ce-d08b-473f-bb83-1e0aa934b7d9",
+        "date_time": "2023-09-19T23:53:23.471Z",
+        "diagnosis": "Stomachache",
+        "prescription": "Antacids",
+        "created_at": "2023-09-19T22:01:34.469Z",
+        "updated_at": "2023-09-19T15:32:28.212Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "9da2fae7-0544-4f5b-bd2a-94da138f4216",
+        "date_time": "2023-09-19T18:45:51.901Z",
+        "diagnosis": "Sore throat",
+        "prescription": "Throat lozenges",
+        "created_at": "2023-09-19T21:51:42.064Z",
+        "updated_at": "2023-09-19T17:08:57.188Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "72bab9aa-27da-4d18-8b18-ee78ddf0d331",
+        "email": "Quincy_Cremin14@hotmail.com",
+        "firstName": "Ubaldo",
+        "lastName": "Legros-Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/46.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37cdb5c7-c8d9-4d75-9678-03d03cd1d163",
+        "email": "Merritt_Hackett@gmail.com",
+        "firstName": "Clifton",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82957455",
+        "tenantId": null
+      },
+      {
+        "reference": "0d13daff-96ff-476d-ae48-23d5b3598318",
+        "email": "Bernard.Koch@yahoo.com",
+        "firstName": "Carter",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/64.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a825c43-2453-43ab-af7d-c9a866156f4b",
+        "email": "Agustina94@yahoo.com",
+        "firstName": "Aliya",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24136660",
+        "tenantId": null
+      },
+      {
+        "reference": "965f1a05-81e7-4ef4-94e4-7554bd5386f5",
+        "email": "Della49@hotmail.com",
+        "firstName": "Nat",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "461e7e60-4a05-43a9-b470-d0f46d0f728c",
+        "created_at": "2023-09-19T12:46:29.136Z",
+        "updated_at": "2023-09-19T22:45:08.772Z"
+      },
+      {
+        "id": "536575a0-2646-4840-8167-3b184398bdc7",
+        "created_at": "2023-09-20T07:09:11.688Z",
+        "updated_at": "2023-09-20T05:52:24.216Z"
+      },
+      {
+        "id": "86ee7e48-4144-4cc7-8320-62cc7883a765",
+        "created_at": "2023-09-20T05:01:43.197Z",
+        "updated_at": "2023-09-19T17:49:14.610Z"
+      },
+      {
+        "id": "bb1a675b-525f-44fb-a040-c68e350a54ee",
+        "created_at": "2023-09-19T18:45:45.659Z",
+        "updated_at": "2023-09-19T22:37:00.903Z"
+      },
+      {
+        "id": "cf2858aa-54dc-46b5-bfe2-4e85c49dd024",
+        "created_at": "2023-09-19T18:32:00.876Z",
+        "updated_at": "2023-09-19T15:20:43.564Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "4473cce5-7aef-4ec1-a9ef-37de8a094cf8",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "123-456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-19T19:49:53.964Z",
+        "updated_at": "2023-09-19T22:03:04.678Z"
+      },
+      {
+        "id": "6c2deac7-93b8-4523-b88a-12b09edf77e5",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "987-654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-20T11:40:49.684Z",
+        "updated_at": "2023-09-19T17:12:49.349Z"
+      },
+      {
+        "id": "d4ffc49a-f5db-4fa2-ae19-7017653779d8",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "555-123-4567",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-19T20:10:32.584Z",
+        "updated_at": "2023-09-20T05:12:55.146Z"
+      },
+      {
+        "id": "b17e6e80-6378-424a-a303-8df6c3a5a42b",
+        "name": "PQR Insurance",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "777-888-9999",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T09:07:02.540Z",
+        "updated_at": "2023-09-19T16:23:52.783Z"
+      },
+      {
+        "id": "b44ce85b-60d1-4e21-87ed-b16f56135f69",
+        "name": "DEF Insurance",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "444-555-6666",
+        "email_address": "info@definsurance.com",
+        "created_at": "2023-09-19T18:13:08.910Z",
+        "updated_at": "2023-09-20T09:36:15.018Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "91927ac4-9776-4f1d-b2b7-b5f3afe43ef6",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "123-456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-19T21:31:36.520Z",
+        "updated_at": "2023-09-19T22:51:48.570Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d883a5a9-9ee0-4f2b-a32e-56983f7a7d09",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "987-654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-20T11:22:05.196Z",
+        "updated_at": "2023-09-20T02:30:28.012Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28b20062-77a8-4701-b134-75e09e112d62",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "555-123-4567",
+        "email_address": "info@123healthcare.com",
+        "created_at": "2023-09-19T17:13:11.797Z",
+        "updated_at": "2023-09-19T17:28:43.297Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c569cd28-1ed4-4ba7-a0f9-36521e928353",
+        "name": "PQR Healthcare",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "777-888-9999",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-20T05:17:43.942Z",
+        "updated_at": "2023-09-19T23:51:13.459Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75cf82e5-2019-4d02-ab76-7ce1a3adee28",
+        "name": "DEF Healthcare",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "444-555-6666",
+        "email_address": "info@defhealthcare.com",
+        "created_at": "2023-09-20T02:15:45.203Z",
+        "updated_at": "2023-09-19T14:28:53.898Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "1754cbd6-43f3-4f42-ae91-fee652fffbcc",
+        "job_title": "Doctor",
+        "start_date": "2023-09-20T10:54:03.789Z",
+        "end_date": "2023-09-19T23:32:52.586Z",
+        "shift": "Morning",
+        "created_at": "2023-09-20T11:25:10.199Z",
+        "updated_at": "2023-09-19T15:46:27.934Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "234604eb-2e05-4c7a-829c-78eddd9d929e",
+        "job_title": "Nurse",
+        "start_date": "2023-09-19T12:10:06.937Z",
+        "end_date": "2023-09-19T13:13:44.802Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-20T06:05:55.288Z",
+        "updated_at": "2023-09-19T15:56:57.005Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "219107da-c9f5-4997-a12f-3674d6f7252c",
+        "job_title": "Physician Assistant",
+        "start_date": "2023-09-19T14:57:33.839Z",
+        "end_date": "2023-09-20T11:37:06.536Z",
+        "shift": "Evening",
+        "created_at": "2023-09-19T20:29:54.035Z",
+        "updated_at": "2023-09-20T05:54:07.310Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15c73502-b2d5-4f61-b559-8a4cd12d4896",
+        "job_title": "Medical Assistant",
+        "start_date": "2023-09-19T14:02:06.853Z",
+        "end_date": "2023-09-20T04:05:43.652Z",
+        "shift": "Night",
+        "created_at": "2023-09-20T00:52:08.824Z",
+        "updated_at": "2023-09-20T07:23:57.206Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7273b848-00a3-4201-8b99-e2778b697525",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-20T01:12:07.665Z",
+        "end_date": "2023-09-19T21:39:57.767Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-19T18:07:33.927Z",
+        "updated_at": "2023-09-20T05:03:35.116Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "af0c530c-07a4-4421-b0ba-2492138c1330",
+        "date_time": "2023-09-19T16:28:48.803Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-19T18:01:09.899Z",
+        "updated_at": "2023-09-20T10:02:54.549Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "159b237c-0701-4616-978b-29668c8207db",
+        "date_time": "2023-09-20T08:09:53.986Z",
+        "diagnosis": "Headache",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-19T21:07:41.101Z",
+        "updated_at": "2023-09-20T07:21:02.239Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7ef70b17-f71c-4a85-8ce7-15cfd105f099",
+        "date_time": "2023-09-19T14:50:19.949Z",
+        "diagnosis": "Stomachache",
+        "prescription": "Antacids",
+        "created_at": "2023-09-19T23:21:14.792Z",
+        "updated_at": "2023-09-19T19:00:34.741Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "487cc690-c1e0-4ffc-9f2c-6aa83cf99fcf",
+        "date_time": "2023-09-20T02:33:33.057Z",
+        "diagnosis": "Sore throat",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-20T10:36:11.434Z",
+        "updated_at": "2023-09-20T07:30:50.873Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "19296169-c48b-41e0-a432-b3f86a14f071",
+        "date_time": "2023-09-20T01:51:53.655Z",
+        "diagnosis": "Sprained ankle",
+        "prescription": "Anti-inflammatory medication",
+        "created_at": "2023-09-20T05:54:38.722Z",
+        "updated_at": "2023-09-20T09:31:14.925Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3c4c368d-a688-4548-80b3-a58498a6619c",
+        "email": "Jayde.Treutel64@gmail.com",
+        "firstName": "Royal",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/617.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7621282b-20f2-4ea6-b9d5-b79e9aff7645",
+        "email": "Keven14@hotmail.com",
+        "firstName": "Otto",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/523.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "194a5ccf-c073-440f-896e-0b5c75cfd352",
+        "email": "Orland.Turcotte29@yahoo.com",
+        "firstName": "Anibal",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35314618",
+        "tenantId": null
+      },
+      {
+        "reference": "71fbbbf6-b738-4630-9f50-d4787f0ed606",
+        "email": "Melissa_Keeling-Rau59@hotmail.com",
+        "firstName": "Stefan",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73559244",
+        "tenantId": null
+      },
+      {
+        "reference": "8727df0a-686f-4a40-b174-6e1762b455d9",
+        "email": "Albertha_Gottlieb30@yahoo.com",
+        "firstName": "Kaley",
+        "lastName": "Prohaska-O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "77efa24d-70d9-4247-98a0-ca59361615c1",
+        "created_at": "2023-09-20T08:28:09.853Z",
+        "updated_at": "2023-09-20T07:17:38.235Z"
+      },
+      {
+        "id": "6334be0a-b81e-44fd-8d41-db7ceda8a040",
+        "created_at": "2023-09-19T16:12:44.072Z",
+        "updated_at": "2023-09-20T09:16:29.205Z"
+      },
+      {
+        "id": "ff996231-ee64-4e66-8ef3-4b6a85f678b2",
+        "created_at": "2023-09-19T17:36:00.091Z",
+        "updated_at": "2023-09-19T17:07:21.701Z"
+      },
+      {
+        "id": "8f94c8c8-a005-40fa-a298-14a9e41da174",
+        "created_at": "2023-09-19T17:32:37.692Z",
+        "updated_at": "2023-09-20T05:49:39.559Z"
+      },
+      {
+        "id": "a4fa087c-56b6-4a7c-994b-4803abc2e6af",
+        "created_at": "2023-09-20T05:14:42.917Z",
+        "updated_at": "2023-09-20T03:51:29.722Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "6e4e03b2-a5f6-4da2-8fd7-1682123b3d63",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-20T00:00:52.031Z",
+        "updated_at": "2023-09-20T10:57:11.557Z"
+      },
+      {
+        "id": "163d146d-c820-4f42-aa7e-afe85841d555",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-20T08:33:15.830Z",
+        "updated_at": "2023-09-19T15:34:48.564Z"
+      },
+      {
+        "id": "dc83bb80-0ca5-449c-ad2e-371641500b2c",
+        "name": "PQR Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T00:58:00.804Z",
+        "updated_at": "2023-09-20T02:45:45.251Z"
+      },
+      {
+        "id": "b0567deb-4173-48b8-a8d5-746cd4ca5298",
+        "name": "LMN Insurance",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@lmninsurance.com",
+        "created_at": "2023-09-20T01:42:16.069Z",
+        "updated_at": "2023-09-20T00:55:34.309Z"
+      },
+      {
+        "id": "c600529a-47ec-4524-ac23-a1b5ea4dc442",
+        "name": "DEF Insurance",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(444) 555-6666",
+        "email_address": "info@definsurance.com",
+        "created_at": "2023-09-19T17:03:15.804Z",
+        "updated_at": "2023-09-19T18:45:59.695Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "4e4ef7de-ecf0-4af6-a152-39990d549e17",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-20T05:13:46.758Z",
+        "updated_at": "2023-09-19T17:56:46.891Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7084a893-6e8c-457c-b5c8-647527343c7d",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-19T23:56:44.687Z",
+        "updated_at": "2023-09-20T02:39:35.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f05905c-c171-4abf-b71f-e7f1e1c5794d",
+        "name": "PQR Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-20T07:45:47.255Z",
+        "updated_at": "2023-09-19T21:50:22.070Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4091b694-7be4-4313-8e23-d7ff041884a0",
+        "name": "LMN Healthcare",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@lmnhealthcare.com",
+        "created_at": "2023-09-19T16:39:10.413Z",
+        "updated_at": "2023-09-20T06:44:44.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58a9acb5-8efd-4321-9056-e3ab8f48f614",
+        "name": "DEF Healthcare",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(444) 555-6666",
+        "email_address": "info@defhealthcare.com",
+        "created_at": "2023-09-20T07:25:17.994Z",
+        "updated_at": "2023-09-20T01:17:27.466Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "63ef597c-3afb-4ce1-9e5f-acaad64be4e1",
+        "job_title": "Doctor",
+        "start_date": "2023-09-19T15:25:05.270Z",
+        "end_date": "2023-09-20T05:33:00.689Z",
+        "shift": "Morning",
+        "created_at": "2023-09-19T23:18:45.111Z",
+        "updated_at": "2023-09-19T23:24:12.347Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a98af1b-4416-4a54-9a74-ee414ae991a5",
+        "job_title": "Nurse",
+        "start_date": "2023-09-19T22:40:29.884Z",
+        "end_date": "2023-09-20T04:57:29.598Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-19T23:53:54.941Z",
+        "updated_at": "2023-09-20T11:31:21.347Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ba463bb-d4d1-4887-abc1-05baf7b5f076",
+        "job_title": "Surgeon",
+        "start_date": "2023-09-20T06:48:35.703Z",
+        "end_date": "2023-09-19T16:39:01.125Z",
+        "shift": "Evening",
+        "created_at": "2023-09-19T23:35:06.747Z",
+        "updated_at": "2023-09-20T06:52:57.450Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95322c8f-ad12-4198-b16a-dff1d573c5f1",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-19T21:38:37.759Z",
+        "end_date": "2023-09-20T00:50:38.563Z",
+        "shift": "Night",
+        "created_at": "2023-09-19T19:54:45.085Z",
+        "updated_at": "2023-09-19T14:35:27.942Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e47997e7-8beb-4750-b50d-badf9c225b97",
+        "job_title": "Therapist",
+        "start_date": "2023-09-19T22:45:54.471Z",
+        "end_date": "2023-09-20T11:20:10.014Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-20T08:47:54.671Z",
+        "updated_at": "2023-09-20T02:37:07.251Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "c55492ba-bf61-435a-9206-ec5760ef8ce4",
+        "date_time": "2023-09-19T14:55:43.048Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-19T14:33:32.274Z",
+        "updated_at": "2023-09-19T13:05:13.439Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1e03df5d-f08d-47bc-8acb-f94dce27f30e",
+        "date_time": "2023-09-19T18:55:36.348Z",
+        "diagnosis": "Headache",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-19T23:45:11.987Z",
+        "updated_at": "2023-09-20T10:14:13.335Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0cb836e0-d29f-4173-a0f1-79cc38b376eb",
+        "date_time": "2023-09-19T19:07:28.797Z",
+        "diagnosis": "Sprained ankle",
+        "prescription": "Muscle relaxants",
+        "created_at": "2023-09-19T12:24:19.736Z",
+        "updated_at": "2023-09-20T09:10:28.410Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1c5df8ad-473b-487d-ac55-0dc5b4d36dbc",
+        "date_time": "2023-09-19T17:52:15.070Z",
+        "diagnosis": "Stomachache",
+        "prescription": "Antacids",
+        "created_at": "2023-09-20T00:00:15.134Z",
+        "updated_at": "2023-09-19T16:13:50.405Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "cfb40e86-f951-404c-96dd-b44952907b50",
+        "date_time": "2023-09-19T17:12:29.874Z",
+        "diagnosis": "Sore throat",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-19T13:48:02.010Z",
+        "updated_at": "2023-09-19T21:15:47.067Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9be3577b-5424-4244-8a6b-74b880d85d9b",
+        "email": "Morgan.Carter@hotmail.com",
+        "firstName": "Alanis",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/455.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cfbad188-13cb-4502-b62f-a90987a2e282",
+        "email": "Marcelo.Huel98@hotmail.com",
+        "firstName": "Heaven",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/743.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b228239b-f9c4-437a-ad1c-287d6014cd1a",
+        "email": "Vita97@yahoo.com",
+        "firstName": "Axel",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37124872",
+        "tenantId": null
+      },
+      {
+        "reference": "cb47cdd6-c72d-480d-88cb-9552cf74aa08",
+        "email": "Emely79@yahoo.com",
+        "firstName": "Everardo",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77344096",
+        "tenantId": null
+      },
+      {
+        "reference": "ade4e9a6-9958-4211-a8ff-194afb44c797",
+        "email": "Gussie90@yahoo.com",
+        "firstName": "Katelyn",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/629.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "3bbf735a-985e-482c-a520-75f06f61c206",
+        "created_at": "2023-09-19T13:31:01.736Z",
+        "updated_at": "2023-09-20T02:02:37.147Z"
+      },
+      {
+        "id": "330d07ca-058c-4bc1-a264-74c4bc0cc926",
+        "created_at": "2023-09-20T11:07:23.282Z",
+        "updated_at": "2023-09-19T15:40:42.653Z"
+      },
+      {
+        "id": "0246ef1f-56f5-463a-9fc7-20c562f5bec5",
+        "created_at": "2023-09-19T14:44:39.512Z",
+        "updated_at": "2023-09-20T09:05:33.696Z"
+      },
+      {
+        "id": "5dc7d9bf-85b6-478b-bd34-5856e3a9b7b2",
+        "created_at": "2023-09-20T07:25:36.518Z",
+        "updated_at": "2023-09-19T16:17:01.016Z"
+      },
+      {
+        "id": "a82924d0-3e43-41f0-87ad-95400f5ce713",
+        "created_at": "2023-09-20T10:40:10.722Z",
+        "updated_at": "2023-09-20T03:25:28.395Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "24b42b79-95ba-4d13-a938-d5faec73a891",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-20T05:18:51.784Z",
+        "updated_at": "2023-09-19T19:09:08.821Z"
+      },
+      {
+        "id": "1a2f4235-88e8-4003-9c1f-c990c0d853ae",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-19T21:31:11.255Z",
+        "updated_at": "2023-09-19T20:51:55.673Z"
+      },
+      {
+        "id": "37a18689-dbbe-4857-bff8-0b40a5b3b6a0",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-19T12:33:15.386Z",
+        "updated_at": "2023-09-20T07:42:30.381Z"
+      },
+      {
+        "id": "00047139-0f1e-4c51-b08f-37430f9c8382",
+        "name": "PQR Insurance",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-19T23:15:39.902Z",
+        "updated_at": "2023-09-19T19:30:26.538Z"
+      },
+      {
+        "id": "1e03e68e-2b9b-4c5a-99b4-db3bdfd1fc35",
+        "name": "MNO Insurance",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(444) 555-6666",
+        "email_address": "info@mnoinsurance.com",
+        "created_at": "2023-09-19T19:34:00.537Z",
+        "updated_at": "2023-09-19T21:39:41.747Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "e319592f-6760-4ae3-b5f3-98778a87d391",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-19T23:14:44.340Z",
+        "updated_at": "2023-09-19T15:09:32.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fb74f3a-c859-4af3-a416-b17cc8272d0c",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-19T17:35:25.982Z",
+        "updated_at": "2023-09-19T22:04:03.575Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd0ef1b1-7195-4f60-aa36-0b88f62844c2",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123healthcare.com",
+        "created_at": "2023-09-19T22:05:40.025Z",
+        "updated_at": "2023-09-19T15:55:30.646Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea78def1-b032-48f4-bc2d-81c6cb3d6344",
+        "name": "PQR Healthcare",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-20T08:58:19.589Z",
+        "updated_at": "2023-09-19T18:47:09.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "884d0962-7160-4cc6-8840-378eca8a3546",
+        "name": "MNO Healthcare",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(444) 555-6666",
+        "email_address": "info@mnohealthcare.com",
+        "created_at": "2023-09-19T20:01:10.918Z",
+        "updated_at": "2023-09-19T22:34:03.830Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "a5ed3b65-a02a-4d3b-8299-8b21032e01c6",
+        "job_title": "Doctor",
+        "start_date": "2023-09-20T00:02:49.125Z",
+        "end_date": "2023-09-19T16:22:02.846Z",
+        "shift": "Morning",
+        "created_at": "2023-09-20T02:20:30.596Z",
+        "updated_at": "2023-09-19T16:54:44.795Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e78126a9-4f1a-4b53-8668-9b6dc25c1a87",
+        "job_title": "Nurse",
+        "start_date": "2023-09-19T18:22:09.579Z",
+        "end_date": "2023-09-20T02:32:17.374Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-20T11:06:42.251Z",
+        "updated_at": "2023-09-20T00:55:26.935Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5eab236e-98ab-4faa-9bef-13496f72651b",
+        "job_title": "Surgeon",
+        "start_date": "2023-09-20T10:21:43.539Z",
+        "end_date": "2023-09-20T08:31:28.232Z",
+        "shift": "Evening",
+        "created_at": "2023-09-19T13:42:21.387Z",
+        "updated_at": "2023-09-20T08:43:23.444Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c3c977b-d6e1-4ebe-a475-40467f1bad35",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-19T21:00:53.075Z",
+        "end_date": "2023-09-19T19:39:04.430Z",
+        "shift": "Night",
+        "created_at": "2023-09-19T23:04:06.884Z",
+        "updated_at": "2023-09-19T20:17:06.435Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f50ddf4-74f7-41c4-a354-ad3a3f325da2",
+        "job_title": "Dentist",
+        "start_date": "2023-09-19T18:25:28.710Z",
+        "end_date": "2023-09-19T20:57:43.272Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-19T15:44:00.712Z",
+        "updated_at": "2023-09-19T13:04:57.472Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "51f2a87d-61c8-440c-a4a7-3582b3f26e6d",
+        "date_time": "2023-09-20T02:27:34.233Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-19T18:16:56.356Z",
+        "updated_at": "2023-09-20T04:42:41.192Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "9d0325d8-24d6-4c48-8b6c-74280aab704b",
+        "date_time": "2023-09-19T12:33:22.767Z",
+        "diagnosis": "Cough",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-19T18:15:02.145Z",
+        "updated_at": "2023-09-19T14:23:59.751Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b3aa8ce8-e75c-4c79-9068-253f46c85280",
+        "date_time": "2023-09-20T09:55:08.879Z",
+        "diagnosis": "Headache",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-19T14:08:18.438Z",
+        "updated_at": "2023-09-20T07:30:15.789Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "a2f63df4-7d3d-4ace-a781-79dcb8cc65a5",
+        "date_time": "2023-09-19T16:23:46.252Z",
+        "diagnosis": "Back pain",
+        "prescription": "Muscle relaxants",
+        "created_at": "2023-09-19T16:03:10.983Z",
+        "updated_at": "2023-09-19T15:06:09.368Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1b611d6f-62b7-49f6-99e7-bf864210b1aa",
+        "date_time": "2023-09-20T09:00:40.373Z",
+        "diagnosis": "Stomach ache",
+        "prescription": "Antacids",
+        "created_at": "2023-09-20T02:34:24.566Z",
+        "updated_at": "2023-09-19T16:28:11.605Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "24d4b8c2-84d7-4833-b8aa-bba134806466",
+        "email": "Desiree.Durgan@yahoo.com",
+        "firstName": "Garnet",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80ccc897-5e39-4bd9-9c6c-dce5df6ae027",
+        "email": "Annabelle.Collins@yahoo.com",
+        "firstName": "Odessa",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/921.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bee620cb-eba9-4f49-bb99-eaa45a0bc135",
+        "email": "Whitney77@gmail.com",
+        "firstName": "Jaylin",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5946b3d9-8f94-4579-b265-4608246b55f4",
+        "email": "Mabel.Hagenes@hotmail.com",
+        "firstName": "Mattie",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f600953a-b8ef-4936-8dbe-c38aa34de99d",
+        "email": "Ardith_Collins78@hotmail.com",
+        "firstName": "Giovani",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42778686",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "bcb1f1fd-a851-40d8-9d68-fe263a82a190",
+        "created_at": "2023-09-19T14:03:58.248Z",
+        "updated_at": "2023-09-19T12:15:16.777Z"
+      },
+      {
+        "id": "649fcd4b-797c-4a4e-812b-5ef0a568614b",
+        "created_at": "2023-09-19T20:16:28.317Z",
+        "updated_at": "2023-09-19T14:03:43.967Z"
+      },
+      {
+        "id": "5666ab56-a1a4-41c4-874b-9460512da9f2",
+        "created_at": "2023-09-20T04:13:41.093Z",
+        "updated_at": "2023-09-20T11:03:58.898Z"
+      },
+      {
+        "id": "260f529e-502c-439e-9ec0-c4ac554e7d33",
+        "created_at": "2023-09-19T13:42:10.378Z",
+        "updated_at": "2023-09-20T08:32:34.468Z"
+      },
+      {
+        "id": "0664e1f9-b171-4b4a-abe0-4fb7fbe6e7f3",
+        "created_at": "2023-09-20T06:27:25.245Z",
+        "updated_at": "2023-09-20T05:30:32.943Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "9a4c39d5-39e2-49de-96b7-80e949d6a513",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-19T19:36:16.669Z",
+        "updated_at": "2023-09-19T21:31:29.955Z"
+      },
+      {
+        "id": "b2f8d0fc-3acb-434b-81d3-e5550642aca8",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-20T03:43:08.032Z",
+        "updated_at": "2023-09-19T21:19:49.341Z"
+      },
+      {
+        "id": "f82017a1-aeb1-49d7-9af9-e10941059dd3",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(456) 789-0123",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-20T06:50:04.366Z",
+        "updated_at": "2023-09-19T18:00:05.854Z"
+      },
+      {
+        "id": "bc758e87-bc3c-4d11-9b8c-c94b06afe497",
+        "name": "PQR Insurance",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(321) 654-0987",
+        "email_address": "info@pqrinsurance.com",
+        "created_at": "2023-09-20T04:40:02.197Z",
+        "updated_at": "2023-09-19T22:14:44.425Z"
+      },
+      {
+        "id": "1077644f-5996-42df-b9a7-f29d97651273",
+        "name": "DEF Insurance",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(789) 012-3456",
+        "email_address": "info@definsurance.com",
+        "created_at": "2023-09-20T05:46:40.079Z",
+        "updated_at": "2023-09-19T14:18:22.770Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "0198d1b5-846f-444f-b6ef-a9645a4ebedc",
+        "name": "ABC Healthcare",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-19T18:56:48.250Z",
+        "updated_at": "2023-09-20T08:54:27.048Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60a6fc00-a05f-4f9d-a61b-7da974bd09e2",
+        "name": "XYZ Healthcare",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-20T00:49:57.797Z",
+        "updated_at": "2023-09-20T08:41:24.577Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3956dee7-e262-415f-87f8-aa6e6855c6e9",
+        "name": "123 Healthcare",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(456) 789-0123",
+        "email_address": "info@123healthcare.com",
+        "created_at": "2023-09-19T22:50:29.575Z",
+        "updated_at": "2023-09-19T13:31:07.154Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d8b5284-a9ff-4964-a5fa-fcb8e726e643",
+        "name": "PQR Healthcare",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(321) 654-0987",
+        "email_address": "info@pqrhealthcare.com",
+        "created_at": "2023-09-20T05:17:50.467Z",
+        "updated_at": "2023-09-19T14:07:27.321Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b17b4a82-e184-445e-b86a-38cc9bb6ea96",
+        "name": "DEF Healthcare",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(789) 012-3456",
+        "email_address": "info@defhealthcare.com",
+        "created_at": "2023-09-19T21:15:17.736Z",
+        "updated_at": "2023-09-20T00:19:13.644Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "6323f445-bdaa-41fd-ac9c-ac91b405d157",
+        "job_title": "Doctor",
+        "start_date": "2023-09-19T12:41:52.658Z",
+        "end_date": "2023-09-19T23:34:12.965Z",
+        "shift": "Morning",
+        "created_at": "2023-09-20T07:23:07.966Z",
+        "updated_at": "2023-09-19T21:24:06.729Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba0b5b99-536d-41b1-89f1-edc07ba2ffe7",
+        "job_title": "Nurse",
+        "start_date": "2023-09-20T03:19:45.729Z",
+        "end_date": "2023-09-19T22:48:33.629Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-20T03:28:05.119Z",
+        "updated_at": "2023-09-20T01:53:25.940Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "891bac92-1d36-4405-88c9-c7add78327c1",
+        "job_title": "Surgeon",
+        "start_date": "2023-09-19T13:17:13.821Z",
+        "end_date": "2023-09-19T18:41:19.965Z",
+        "shift": "Evening",
+        "created_at": "2023-09-20T01:59:44.604Z",
+        "updated_at": "2023-09-20T10:52:29.536Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39a605ae-1b35-4075-9adc-a565b9030aeb",
+        "job_title": "Therapist",
+        "start_date": "2023-09-20T08:27:22.923Z",
+        "end_date": "2023-09-20T07:17:14.650Z",
+        "shift": "Night",
+        "created_at": "2023-09-20T08:05:09.916Z",
+        "updated_at": "2023-09-19T22:49:53.160Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "272997b4-c712-4efc-9853-7a3c0c6826c3",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-19T18:42:24.005Z",
+        "end_date": "2023-09-20T08:52:42.845Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-19T17:14:33.936Z",
+        "updated_at": "2023-09-19T15:30:35.050Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b325550e-e9a7-4b78-876d-c20f97fc783c",
+        "date_time": "2023-09-19T13:34:28.399Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-19T15:26:06.962Z",
+        "updated_at": "2023-09-20T10:02:33.770Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0598b7b3-5a61-4076-ae13-0c3be90de725",
+        "date_time": "2023-09-20T04:33:42.452Z",
+        "diagnosis": "Headache",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-19T17:03:08.944Z",
+        "updated_at": "2023-09-19T12:02:54.282Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7ff54d0a-557f-44c1-8e6c-448087cee924",
+        "date_time": "2023-09-19T16:09:55.629Z",
+        "diagnosis": "Sprained ankle",
+        "prescription": "Muscle relaxants",
+        "created_at": "2023-09-19T16:24:28.970Z",
+        "updated_at": "2023-09-19T22:44:03.491Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7e1f9d93-40d9-4731-9fc6-65a013284a62",
+        "date_time": "2023-09-19T18:48:46.458Z",
+        "diagnosis": "Stomachache",
+        "prescription": "Antacids",
+        "created_at": "2023-09-20T10:40:13.114Z",
+        "updated_at": "2023-09-19T18:09:58.620Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e27f691e-ccc3-44a5-8044-cb6e3ac3636b",
+        "date_time": "2023-09-19T14:53:01.388Z",
+        "diagnosis": "Sore throat",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-19T14:13:57.298Z",
+        "updated_at": "2023-09-20T02:53:08.025Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "381238f2-cd55-4d70-aad2-34d91bf13b93",
+        "email": "Gino_Hamill43@gmail.com",
+        "firstName": "Stanley",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82890515",
+        "tenantId": null
+      },
+      {
+        "reference": "6b197dac-a14f-439e-bb83-2a73080bf6b9",
+        "email": "Rylan_Langworth@yahoo.com",
+        "firstName": "Albert",
+        "lastName": "Sipes-Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93504289",
+        "tenantId": null
+      },
+      {
+        "reference": "e35379be-c8ec-4dfa-a555-4c3b66a7e5cd",
+        "email": "Ora_Bode@yahoo.com",
+        "firstName": "Elda",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/583.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5095fb4e-3aa8-4818-ad62-8328ade47429",
+        "email": "Josephine_Howell@hotmail.com",
+        "firstName": "Lilyan",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/968.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7cad3e92-5ead-4a4d-a99d-6e4742de3f82",
+        "email": "Imogene.Beer@gmail.com",
+        "firstName": "Eloy",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37362460",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient_history": [
+      {
+        "id": "668334ad-c821-44e2-af67-a8a5ee176816",
+        "created_at": "2023-09-19T22:33:12.689Z",
+        "updated_at": "2023-09-20T10:54:05.576Z"
+      },
+      {
+        "id": "3254391f-b751-4ed0-aa46-55d44557f698",
+        "created_at": "2023-09-19T14:18:04.609Z",
+        "updated_at": "2023-09-20T09:09:22.654Z"
+      },
+      {
+        "id": "3318b1f8-2bc1-4266-b7d1-7558e127598d",
+        "created_at": "2023-09-19T20:12:45.836Z",
+        "updated_at": "2023-09-19T14:22:25.036Z"
+      },
+      {
+        "id": "772a3d4b-cdc6-48c3-9aa4-486298a85f4c",
+        "created_at": "2023-09-20T11:40:57.472Z",
+        "updated_at": "2023-09-19T19:25:11.550Z"
+      },
+      {
+        "id": "069186d5-8cf1-4786-813e-a06f59bc964d",
+        "created_at": "2023-09-19T19:53:56.954Z",
+        "updated_at": "2023-09-19T15:15:21.675Z"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "fa73ba21-00d3-413d-ac66-1a077b6cf4d3",
+        "name": "ABC Insurance",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abcinsurance.com",
+        "created_at": "2023-09-19T20:41:24.216Z",
+        "updated_at": "2023-09-20T10:12:44.252Z"
+      },
+      {
+        "id": "268c3308-cfab-4a26-a259-8820d77cc6a6",
+        "name": "XYZ Insurance",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzinsurance.com",
+        "created_at": "2023-09-19T14:46:52.224Z",
+        "updated_at": "2023-09-19T22:49:44.254Z"
+      },
+      {
+        "id": "46ecc2b8-1156-4665-a2f2-0a86fca18914",
+        "name": "123 Insurance",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123insurance.com",
+        "created_at": "2023-09-20T01:12:19.158Z",
+        "updated_at": "2023-09-20T08:55:23.324Z"
+      },
+      {
+        "id": "c34651b1-bb19-4f64-85e1-a8c94680e101",
+        "name": "ABC Healthcare",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@abchealthcare.com",
+        "created_at": "2023-09-19T16:24:44.990Z",
+        "updated_at": "2023-09-19T18:02:59.720Z"
+      },
+      {
+        "id": "8fea47d6-fcd0-4c94-a942-a79b597225da",
+        "name": "XYZ Healthcare",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@xyzhealthcare.com",
+        "created_at": "2023-09-19T22:21:15.860Z",
+        "updated_at": "2023-09-20T10:54:22.060Z"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "33e5f224-dfc4-4f46-9801-ed5519a7655b",
+        "name": "ABC Hospital",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "phone_number": "(123) 456-7890",
+        "email_address": "info@abchospital.com",
+        "created_at": "2023-09-20T05:57:38.821Z",
+        "updated_at": "2023-09-20T11:27:47.007Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "861d03fa-3340-4ed1-8643-73fa7ca44044",
+        "name": "XYZ Hospital",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "phone_number": "(987) 654-3210",
+        "email_address": "info@xyzhospital.com",
+        "created_at": "2023-09-19T13:22:11.092Z",
+        "updated_at": "2023-09-20T01:13:20.736Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d73994-4d2d-46f4-8cd8-372b0ea799f2",
+        "name": "123 Hospital",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "phone_number": "(555) 123-4567",
+        "email_address": "info@123hospital.com",
+        "created_at": "2023-09-20T02:04:56.004Z",
+        "updated_at": "2023-09-20T03:19:27.554Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f61585d8-4b43-46e9-af53-1bd1873969bf",
+        "name": "ABC Clinic",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "phone_number": "(999) 888-7777",
+        "email_address": "info@abcclinic.com",
+        "created_at": "2023-09-19T13:10:42.313Z",
+        "updated_at": "2023-09-19T22:11:27.690Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afb58750-57c4-4520-b0dd-d98635347c04",
+        "name": "XYZ Clinic",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "phone_number": "(111) 222-3333",
+        "email_address": "info@xyzclinic.com",
+        "created_at": "2023-09-19T17:17:31.833Z",
+        "updated_at": "2023-09-19T18:22:49.287Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "020bd8fb-a4cc-4602-95d1-1905dece45d1",
+        "job_title": "Doctor",
+        "start_date": "2023-09-20T01:29:02.203Z",
+        "end_date": "2023-09-20T02:19:40.625Z",
+        "shift": "Morning",
+        "created_at": "2023-09-20T02:47:15.161Z",
+        "updated_at": "2023-09-20T03:06:42.989Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ceaf929-20b8-486a-bbca-3fbaf5e1a401",
+        "job_title": "Nurse",
+        "start_date": "2023-09-19T19:18:04.616Z",
+        "end_date": "2023-09-20T09:47:59.157Z",
+        "shift": "Afternoon",
+        "created_at": "2023-09-20T05:22:37.216Z",
+        "updated_at": "2023-09-20T07:08:03.087Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "889675bf-5094-4393-adf4-0f1866495c0f",
+        "job_title": "Medical Assistant",
+        "start_date": "2023-09-20T05:50:34.654Z",
+        "end_date": "2023-09-19T12:38:27.453Z",
+        "shift": "Evening",
+        "created_at": "2023-09-20T07:21:27.550Z",
+        "updated_at": "2023-09-20T01:34:36.790Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf36eaf6-7140-4e10-9fe5-4354d270adf6",
+        "job_title": "Pharmacist",
+        "start_date": "2023-09-20T09:32:28.870Z",
+        "end_date": "2023-09-19T18:31:22.284Z",
+        "shift": "Night",
+        "created_at": "2023-09-20T04:58:07.232Z",
+        "updated_at": "2023-09-19T22:42:22.378Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "743b36c2-058a-4abf-ae27-d19e2344e639",
+        "job_title": "Physical Therapist",
+        "start_date": "2023-09-20T01:33:04.023Z",
+        "end_date": "2023-09-20T08:41:10.814Z",
+        "shift": "Weekend",
+        "created_at": "2023-09-19T17:43:11.692Z",
+        "updated_at": "2023-09-20T02:04:23.406Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "264f6a59-b0cb-401f-9c06-325d2555219b",
+        "date_time": "2023-09-19T20:21:13.572Z",
+        "diagnosis": "Fever",
+        "prescription": "Antibiotics",
+        "created_at": "2023-09-20T03:14:27.151Z",
+        "updated_at": "2023-09-19T15:38:29.698Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "89dac4ae-36e8-4c62-b0cb-f6300b8624d3",
+        "date_time": "2023-09-19T19:36:34.374Z",
+        "diagnosis": "Headache",
+        "prescription": "Painkillers",
+        "created_at": "2023-09-19T18:12:51.186Z",
+        "updated_at": "2023-09-19T12:28:53.285Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "75e41f2e-8071-495f-85ea-6c8ce5704a99",
+        "date_time": "2023-09-19T20:06:51.889Z",
+        "diagnosis": "Cough",
+        "prescription": "Cough syrup",
+        "created_at": "2023-09-20T06:28:27.621Z",
+        "updated_at": "2023-09-19T22:42:14.112Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ae00604b-fdec-4912-a9b5-e786202a22cc",
+        "date_time": "2023-09-19T12:07:21.796Z",
+        "diagnosis": "Back pain",
+        "prescription": "Muscle relaxants",
+        "created_at": "2023-09-19T17:10:10.098Z",
+        "updated_at": "2023-09-19T15:41:13.077Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1c884166-1d0f-48e3-8ec2-2b08f4158b8e",
+        "date_time": "2023-09-20T03:10:52.630Z",
+        "diagnosis": "Stomach ache",
+        "prescription": "Antacids",
+        "created_at": "2023-09-19T15:28:07.571Z",
+        "updated_at": "2023-09-19T14:21:47.432Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2c8eff33-2dab-4336-aaa8-c445089919c3",
+        "email": "Dashawn_Parker4@hotmail.com",
+        "firstName": "Maureen",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22969675",
+        "tenantId": null
+      },
+      {
+        "reference": "c5d8b8ec-de6f-43aa-88b8-10f2c20fe89f",
+        "email": "Tyrique70@yahoo.com",
+        "firstName": "Triston",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98117883",
+        "tenantId": null
+      },
+      {
+        "reference": "eaeb74f8-3598-464c-838b-d4217aa68f8b",
+        "email": "Santiago.Cronin@hotmail.com",
+        "firstName": "Isabel",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49753934",
+        "tenantId": null
+      },
+      {
+        "reference": "24e1810c-7bcc-496f-ab2b-86481c583d9f",
+        "email": "Ally28@yahoo.com",
+        "firstName": "Cydney",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/579.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "175bd1a0-11c3-41db-96eb-743be84b5c5a",
+        "email": "Clifton.Pfeffer@hotmail.com",
+        "firstName": "Hyman",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/923.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
